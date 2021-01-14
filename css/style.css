@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+
+}
+
+.wrap {
+  width: 1140px;
+  margin: 0 auto;
+  outline: 1px solid red;
+}
+
+
+.header {
+  background: #222222;
+  outline: 1px solid green;
+  color: #fff;
+  padding: 18px 0;
+}
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.header-logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.logo-link {
+  margin-right: 40px;
+}
+.search {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.account {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 5px;
+}
+.menu {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.login {
+  margin: 0 30px;
+}
+.cart {
+
+}
+
+
+
+
+
+
+
+
+
+.promo {
+  background: #F1E4E6;
+}
+
+.сategories {
+  background-color: #fff;
+}
+
+.products {
+  background-color: #fff;
+}
+.advantages {
+  background: #222224;
+}
