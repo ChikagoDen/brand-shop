@@ -1,0 +1,42 @@
+
+.header {
+  background: $main-black;
+  outline: 1px solid green;
+  color: #fff;
+  padding: 18px 0;
+}
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.header-logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.logo-link {
+  margin-right: 40px;
+}
+.search {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.account {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 5px;
+}
+.menu {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.login {
+  margin: 0 30px;
+}
+.cart {
+
+}

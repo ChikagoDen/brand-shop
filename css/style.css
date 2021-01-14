@@ -1,9 +1,11 @@
+@charset "UTF-8";
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
+
 body {
   margin: 0;
-
 }
 
 .wrap {
@@ -12,25 +14,38 @@ body {
   outline: 1px solid red;
 }
 
-
 .header {
   background: #222222;
   outline: 1px solid green;
   color: #fff;
   padding: 18px 0;
 }
+
 .header-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
+
 .header-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+
 .logo-link {
   margin-right: 40px;
 }
+
 .search {
   background-color: transparent;
   border: none;
@@ -38,30 +53,27 @@ body {
 }
 
 .account {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-right: 5px;
 }
+
 .menu {
   background-color: transparent;
   border: none;
   outline: none;
 }
+
 .login {
   margin: 0 30px;
 }
-.cart {
-
-}
-
-
-
-
-
-
-
-
 
 .promo {
   background: #F1E4E6;
@@ -74,6 +86,8 @@ body {
 .products {
   background-color: #fff;
 }
+
 .advantages {
   background: #222224;
 }
+/*# sourceMappingURL=style.css.map */

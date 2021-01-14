@@ -1,0 +1,32 @@
+@import "global/var.scss";
+@import "global/mixins.scss";
+@import "global/main.scss";
+// blocks
+@import "header";
+
+
+
+
+
+
+
+
+
+
+
+
+
+.promo {
+  background: #F1E4E6;
+}
+
+.сategories {
+  background-color: #fff;
+}
+
+.products {
+  background-color: #fff;
+}
+.advantages {
+  background: $main-black;
+}
