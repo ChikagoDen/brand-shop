@@ -12,3 +12,11 @@ body {
   margin: 0 auto;
   outline: 1px solid red;
 }
+
+.hidden {
+  position: absolute;
+  left: -999999px;
+  width:0;
+  height:0;
+  visibility: hidden;
+}

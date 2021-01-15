@@ -1,0 +1,55 @@
+.сategories {
+  background-color: #fff;
+}
+.categories-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: wrap;
+  padding: 65px 0 80px 0;
+}
+
+.category-item {
+  background: rgba(33, 22, 22, 0.7);
+  width: 360px;
+  min-height: 260px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+  text-transform: uppercase;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  &--women {
+    background-image: url(../../img/cat-woman.png);
+  }
+  &--men {
+    background-image: url(../../img/cat-man.png);
+  }
+  &--kids {
+    background-image: url(../../img/cat-kids.png);
+  }
+  &--accesories {
+    background-image: url(../../img/cat-accesories.png);
+    margin-top: 30px;
+    width: 100%;
+    min-height: 180px;
+  }
+}
+
+.category-text {
+  font-weight: normal;
+  font-size: 16px;
+  color: #FFFFFF;
+  margin:0;
+}
+.category-name {
+  font-weight: bold;
+  font-size: 24px;
+  color: $main-pink;
+  margin:0;
+}

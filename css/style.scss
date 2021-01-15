@@ -5,11 +5,10 @@
 @import "blocks/_header";
 @import "blocks/_header-search";
 @import "blocks/_promo";
+@import "blocks/_categories";
 
 
-.сategories {
-  background-color: #fff;
-}
+
 
 .products {
   background-color: #fff;
@@ -17,4 +16,3 @@
 .advantages {
   background: $main-black;
 }
-
