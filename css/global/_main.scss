@@ -3,10 +3,12 @@
 }
 body {
   margin: 0;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-size: 14px;
 }
 
 .wrap {
-  width: 1140px;
+  width: $desktop-wrap;
   margin: 0 auto;
   outline: 1px solid red;
 }

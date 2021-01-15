@@ -1,0 +1,42 @@
+.promo {
+  background-color: #FFF;
+  background-image: 
+  linear-gradient(to right,rgba(113, 103, 105, 0.08) 50%,  #F1E4E6 50%);
+
+}
+
+.promo-wrap {
+  background-image: url(../../img/promo-bg.png);
+  background-repeat: no-repeat;
+  background-position: -225px bottom;
+  min-height: 765px;
+  padding-left: $desktop-wrap / 2;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.promo-title {
+  text-transform: uppercase;
+  margin-left: 45px; 
+  padding-left: 16px;
+
+  border-left: 12px solid $main-pink; 
+  
+  color: $main-black;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 40px;
+
+  &--smaller {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  &--pink {
+    color: $main-pink;
+  }
+}

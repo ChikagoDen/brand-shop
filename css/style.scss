@@ -1,24 +1,11 @@
-@import "global/var.scss";
-@import "global/mixins.scss";
-@import "global/main.scss";
+@import "global/_var";
+@import "global/_mixins";
+@import "global/_main";
 // blocks
-@import "blocks/_header.scss";
-@import "blocks/_header-search.scss";
+@import "blocks/_header";
+@import "blocks/_header-search";
+@import "blocks/_promo";
 
-
-
-
-
-
-
-
-
-
-
-
-.promo {
-  background: #F1E4E6;
-}
 
 .сategories {
   background-color: #fff;
@@ -30,3 +17,4 @@
 .advantages {
   background: $main-black;
 }
+
