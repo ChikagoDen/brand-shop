@@ -1,0 +1,13 @@
+.search {
+  opacity: 0;
+  width:0px;
+  z-index: -2;
+  position: relative;
+  transition: 0.5s;
+}
+.search__field {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid $grey;
+  border-radius: 0;
+}
