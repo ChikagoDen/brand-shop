@@ -6,37 +6,44 @@
   padding: 18px 0;
 }
 
-.header-wrap {
+.header__wrap {
   display: flex;
   justify-content: space-between;
 }
 
-.header-logo {
+.header__logo {
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
 
-.logo-link {
+.header__link {
   margin-right: 40px;
 }
 
+.header__search-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
 
+.header__search-btn:focus ~ .header__search {
+  opacity: 1;
+  width:200px;
+  z-index: 2;
+}
 
-.account {
+.header__account {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   margin-right: 5px;
 }
-.menu {
+.header__menu {
   background-color: transparent;
   border: none;
   outline: none;
 }
-.login {
+.header__login {
   margin: 0 30px;
 }
-// .cart {
-
-// }

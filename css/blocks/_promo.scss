@@ -5,7 +5,7 @@
 
 }
 
-.promo-wrap {
+.promo__wrap {
   background-image: url(../../img/promo-bg.png);
   background-repeat: no-repeat;
   background-position: -225px bottom;
@@ -16,7 +16,7 @@
   align-items: center;
 }
 
-.promo-title {
+.promo__title {
   text-transform: uppercase;
   margin-left: 45px; 
   padding-left: 16px;
@@ -28,15 +28,4 @@
   font-weight: 900;
   font-size: 48px;
   line-height: 40px;
-
-  &--smaller {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 32px;
-    line-height: 38px;
-  }
-
-  &--pink {
-    color: $main-pink;
-  }
 }

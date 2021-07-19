@@ -1,7 +1,7 @@
 .сategories {
   background-color: #fff;
 }
-.categories-wrap {
+.categories__wrap {
   display: flex;
   justify-content: space-between;
   align-items: stretch;
@@ -9,7 +9,7 @@
   padding: 65px 0 80px 0;
 }
 
-.category-item {
+.categories__item {
   background: rgba(33, 22, 22, 0.7);
   width: 360px;
   min-height: 260px;
@@ -41,13 +41,13 @@
   }
 }
 
-.category-text {
+.categories__text {
   font-weight: normal;
   font-size: 16px;
   color: #FFFFFF;
   margin:0;
 }
-.category-name {
+.categories__name {
   font-weight: bold;
   font-size: 24px;
   color: $main-pink;

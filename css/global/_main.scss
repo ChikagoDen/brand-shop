@@ -10,7 +10,11 @@ body {
 .wrap {
   width: $desktop-wrap;
   margin: 0 auto;
-  outline: 1px solid red;
+}
+
+.center {
+  padding-left: calc(50% - #{$desktop-wrap} / 2);
+  padding-right: calc(50% - #{$desktop-wrap} / 2);
 }
 
 .hidden {
